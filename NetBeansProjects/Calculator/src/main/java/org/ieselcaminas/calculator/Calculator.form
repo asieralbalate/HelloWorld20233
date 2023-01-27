@@ -34,7 +34,7 @@
                       <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Component id="n3" min="-2" pref="60" max="-2" attributes="0"/>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Component id="suma" min="-2" pref="60" max="-2" attributes="0"/>
+                      <Component id="add" min="-2" pref="60" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
                       <Group type="103" groupAlignment="0" max="-2" attributes="0">
@@ -43,7 +43,7 @@
                               <EmptySpace type="separate" max="-2" attributes="0"/>
                               <Component id="n0" min="-2" pref="60" max="-2" attributes="0"/>
                           </Group>
-                          <Component id="igual" max="32767" attributes="0"/>
+                          <Component id="equal" max="32767" attributes="0"/>
                       </Group>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Group type="103" groupAlignment="0" attributes="0">
@@ -51,7 +51,7 @@
                           <Group type="102" alignment="0" attributes="0">
                               <Component id="borrar" min="-2" pref="60" max="-2" attributes="0"/>
                               <EmptySpace type="separate" max="-2" attributes="0"/>
-                              <Component id="division" min="-2" pref="60" max="-2" attributes="0"/>
+                              <Component id="div" min="-2" pref="60" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                   </Group>
@@ -62,7 +62,7 @@
                       <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Component id="n9" min="-2" pref="60" max="-2" attributes="0"/>
                       <EmptySpace max="32767" attributes="0"/>
-                      <Component id="multip" min="-2" pref="60" max="-2" attributes="0"/>
+                      <Component id="mult" min="-2" pref="60" max="-2" attributes="0"/>
                   </Group>
                   <Group type="102" alignment="0" attributes="0">
                       <Component id="n4" min="-2" pref="60" max="-2" attributes="0"/>
@@ -71,7 +71,7 @@
                       <EmptySpace type="separate" max="-2" attributes="0"/>
                       <Component id="n6" min="-2" pref="60" max="-2" attributes="0"/>
                       <EmptySpace type="separate" max="-2" attributes="0"/>
-                      <Component id="resta" min="-2" pref="60" max="-2" attributes="0"/>
+                      <Component id="subs" min="-2" pref="60" max="-2" attributes="0"/>
                   </Group>
               </Group>
               <EmptySpace pref="53" max="32767" attributes="0"/>
@@ -88,32 +88,32 @@
                   <Component id="n1" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
                   <Component id="n2" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
                   <Component id="n3" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
-                  <Component id="suma" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                  <Component id="add" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="separate" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="n4" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
                   <Component id="n5" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
                   <Component id="n6" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
-                  <Component id="resta" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                  <Component id="subs" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="separate" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="n7" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
                   <Component id="n8" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
                   <Component id="n9" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
-                  <Component id="multip" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                  <Component id="mult" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="separate" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
                   <Component id="comas" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
                   <Component id="n0" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
                   <Component id="borrar" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
-                  <Component id="division" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                  <Component id="div" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
               </Group>
               <EmptySpace type="separate" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="igual" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
+                  <Component id="equal" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
                   <Component id="volver" alignment="3" min="-2" pref="25" max="-2" attributes="0"/>
               </Group>
               <EmptySpace pref="64" max="32767" attributes="0"/>
@@ -146,13 +146,13 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="n3ActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="suma">
+    <Component class="javax.swing.JButton" name="add">
       <Properties>
         <Property name="text" type="java.lang.String" value="+"/>
         <Property name="toolTipText" type="java.lang.String" value=""/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="sumaActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="addActionPerformed"/>
       </Events>
     </Component>
     <Component class="javax.swing.JButton" name="n4">
@@ -179,12 +179,12 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="n6ActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="resta">
+    <Component class="javax.swing.JButton" name="subs">
       <Properties>
         <Property name="text" type="java.lang.String" value="-"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="restaActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="subsActionPerformed"/>
       </Events>
     </Component>
     <Component class="javax.swing.JButton" name="n7">
@@ -211,12 +211,12 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="n9ActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="multip">
+    <Component class="javax.swing.JButton" name="mult">
       <Properties>
         <Property name="text" type="java.lang.String" value="*"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="multipActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="multActionPerformed"/>
       </Events>
     </Component>
     <Component class="javax.swing.JButton" name="comas">
@@ -243,20 +243,20 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="borrarActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="division">
+    <Component class="javax.swing.JButton" name="div">
       <Properties>
         <Property name="text" type="java.lang.String" value="/"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="divisionActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="divActionPerformed"/>
       </Events>
     </Component>
-    <Component class="javax.swing.JButton" name="igual">
+    <Component class="javax.swing.JButton" name="equal">
       <Properties>
         <Property name="text" type="java.lang.String" value="="/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="igualActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="equalActionPerformed"/>
       </Events>
     </Component>
     <Component class="javax.swing.JButton" name="volver">
